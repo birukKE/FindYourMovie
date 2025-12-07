@@ -1,0 +1,38 @@
+
+
+/* .text-container{
+    width: 275px;
+} */
+
+.the-text{
+    border-right: 5px solid;
+    white-space: nowrap; 
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* width: 0ch; */
+
+    animation: 
+        type 3.5s steps(8) infinite,
+        blinking 0.5s infinite;
+}
+
+@keyframes type{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes blinking{
+
+    0%{
+
+    }
+    100%{
+        border: transparent;
+    }
+}
