@@ -27,9 +27,9 @@ const Navbar = () => {
                 <span className={isActive?"third-span-after":""}></span>
             </div>
 
-             {/* <div className='ham-menu'><span></span> <span></span> <span></span></div> */}
         </nav>
         )
 }
+
 
 export default Navbar
