@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 1500px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-class{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    width: 100%;
+    /* background-image: url('../assets/movieImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: rgb(248, 243, 243); /*rgb(29, 39, 49);*/
+    gap: 10px;
+}
+
+.change {
+    background-image: none;
+    background-color: rgb(248, 243, 243); 
+}
+
+.top-span, .bottom-span{
+    height: 250px;
+}
+
+/* User input element hanlder */
+.user-input{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* Trying to divide input+button from toggle in the main container so button is located next to input */
+.input-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 110px;
+    user-select: none;
+    }
+
+.go-button{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    user-select: none;
+}
+
+.go-button:hover{
+    scale: 1.15;
+    background-color: rgb(23, 22, 22);
+}
+
+/* Overlay is fixing the loading so the whole screen becomes black while loading */
+/* .overlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+} */
+
+
+
+
+.instruction{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+
+
+/* About page */
+.container-about-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(248, 243, 243) ;
+}
+
+.text-container{
+    text-align: left;
+}
+
+.title{
+    font-weight: bold;
+    font-size: larger;
+}
+
