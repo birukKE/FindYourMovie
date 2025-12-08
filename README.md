@@ -6,11 +6,10 @@
 ## **Features**
 - **Search by movie title** → get similar movies
 - **Search by custom description** → find matching movies
-- **AI-based semantic similarity**
 
 
 ## **Description**
-- A movie recommendation website that uses AI system.
+- A movie recommendation website that uses AI-based semantic similarity.
 - Users can:
   - Find movies similar to a selected movie.
   - Get recommendations based on a written description.
