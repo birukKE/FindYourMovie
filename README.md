@@ -10,7 +10,7 @@
 
 
 ## **Description**
-- A movie recommendation system that uses AI system.
+- A movie recommendation website that uses AI system.
 - Users can:
   - Find movies similar to a selected movie.
   - Get recommendations based on a written description.
